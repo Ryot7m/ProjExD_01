@@ -28,7 +28,7 @@ def main():
         # screen.blit(imgs[tmr%2],[0,y])
         pg.display.update()
         tmr += 1        
-        clock.tick(1000)
+        clock.tick(100)
 
 
 if __name__ == "__main__":
